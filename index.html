@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Code Hub</title>
+    <!-- web icon -->
+    <link rel="icon" href="source/code.png" >
+    <!-- custome css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- font-link -->
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Russo+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- bootstrap css cdn -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- bootstrap js & jquery cdn -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </head>
+
+  <body style="background-color:#e5e5e5;">
+    <!-- Navbar content -->
+    <nav class="navbar navbar-expand-md bg-dark" style="background-color: #2d4059;">
+      <!-- LOGO  -->
+      <a class="navbar-brand" href="#"><span class="logo">Code.<span style="color: white;">Hub </span><img class="logo-img" src="source/code.png" alt="Code Hub"> </a>
+      <!-- navbar cpllapse button -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"><i class="fa fa-bars text-white"></i></span>
+      </button>
+      <!-- navbar menu -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link text-white" href="#"><i class="fa fa-home"></i> Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#feature"><i class="fa fa-steam"></i> About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <i class="fa fa-download"></i> Download
+            </a>
+            <!-- download dropdown menu -->
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#"><i class="fa fa-android"></i> Android</a>
+              <a class="dropdown-item" href="#"><i class="fa fa-apple"></i> iOS</a>
+              <a class="dropdown-item" href="#"><i class="fa fa-windows"></i> Windows</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#social-media"><i class="fa fa-phone"></i> Contacts</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="/me.html"><i class="fa fa-phone"></i> Me</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- web header section -->
+    <section id="header">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6" style="margin-top: 5em;">
+              <h1 class="header-h1" >Let's Jump Into Code to get a Job in your DREAM Company</h1>
+                <button class="btn btn-lg btn-dark header-btn"  >
+                  <i class="fa fa-code"></i> JUMP INTO
+                </button>
+                <button class="btn btn-lg btn-outline-light header-btn"  >
+                  <i class="fa fa-question-circle"></i> QUERY
+                </button>
+          </div>
+          <div class="col-md-6"  style="margin-top: 5em;">
+            <img class="header-img" src="https://media.giphy.com/media/lr1QZ7prMwwkqSSVLa/giphy.gif"  alt="">
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- web features section -->
+    <section id="feature">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 feature-box">
+            <i class="fa fa-etsy fa-4x" ></i>
+            <h3>Easy to use</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+               Labore saepe reiciendis officia, accusamus similique quo sit.
+                Nobis obcaecati molestias dolor.
+            </p>
+          </div>
+          <div class="col-lg-4 feature-box">
+            <i class="fas fa-keyboard-o fa-4x"></i>
+            <h3>Full Advanced IDE</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+               Labore saepe reiciendis officia, accusamus similique quo sit.
+               Nobis obcaecati molestias dolor.
+           </p>
+          </div>
+          <div class="col-lg-4 feature-box">
+            <i class="fas fa-shoe-prints fa-4x"></i>
+            <h3>Step to Step</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+               Labore saepe reiciendis officia, accusamus similique quo sit.
+               Nobis obcaecati molestias dolor.
+           </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="slider">
+      <div class="slider_section">
+        
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active ">
+              <div class="row container">
+                <div class="col-md-6">
+                  <img src="source/web_dev.jpg" class="slider-img" >
+                </div>
+                <div class="col-md-6">
+                    <h3 class="slider-h3">Web Development</h3>
+                    <p class="slider-p">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                       Voluptates in suscipit fuga culpa animi fugiat vel labore sint,
+                        commodi error, tenetur alias sunt mollitia ut!</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item ">
+              <div class="row container">
+                <div class="col-md-6">
+                  <h3 class="slider-h3"> Mobile Apps Cevelopment</h3>
+                  <p class="slider-p">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                     Voluptates in suscipit fuga culpa animi fugiat vel labore sint,
+                      commodi error, tenetur alias sunt mollitia ut!</p>
+                </div>
+                <div class="col-md-6 offset-lg-2 col-lg-4">
+                  <img src="source/mobile_dev.jpg" class="slider-img" >
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row container">
+                <div class="col-md-6">
+                  <img src="source/logic_dev.jpg" class="slider-img" >
+                </div>
+                <div class="col-md-6">
+                    <h3 class="slider-h3"> Logic Development</h3>
+                    <p class="slider-p">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                       Voluptates in suscipit fuga culpa animi fugiat vel labore sint,
+                        commodi error, tenetur alias sunt mollitia ut!</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item ">
+              <div class="row container">
+                <div class="col-md-6">
+                  <h3 class="slider-h3"> Data Structure</h3>
+                  <p class="slider-p">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                     Voluptates in suscipit fuga culpa animi fugiat vel labore sint,
+                      commodi error, tenetur alias sunt mollitia ut!</p>
+                </div>
+                <div class="col-md-6 offset-lg-2 col-lg-4">
+                  <img src="source/data_str.png" class="slider-img" >
+                </div>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+
+      </div>
+    </section>
+   
+   <section id="course" style="text-align: center;">
+    <div class="row  card-div course-h2">
+      <h2>Enroll ASAP to Learn New Skills: </h2>
+    </div>
+     <div class="row card-div">
+       <div class="col-md-6 col-lg-4">
+     <div class="card">
+           <div class="card-header " >
+              <h4>Mastering In Data Structure</h4>
+           </div>
+           <div class="card-body">
+              <img src="source/data_str.png" alt="" width="100%" height="200px">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Veniam obcaecati nobis quam distinctio officiis ratione!</p>
+           </div>
+           <div class="card-footer" >
+              <button class="btn" style="background-color:    #ed6663;
+              ;">Enroll Now</button>
+           </div>
+         </div>
+       </div>
+       <div class="col-md-6 col-lg-4">
+        <div class="card">
+          <div class="card-header " >
+             <h4>Begin to Advance in Python</h4>
+          </div>
+          <div class="card-body">
+             <img src="source/python.jpg" alt="" width="100%" height="200px">
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+               Veniam obcaecati nobis quam distinctio officiis ratione!</p>
+          </div>
+          <div class="card-footer" >
+             <button class="btn" style="background-color:    #ed6663;
+             ;">Enroll Now</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="card">
+          <div class="card-header " >
+             <h4>Learn JAVA (object oriented)</h4>
+          </div>
+          <div class="card-body">
+             <img src="source/java.jpg" alt="" width="100%" height="200px">
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+               Veniam obcaecati nobis quam distinctio officiis ratione!</p>
+          </div>
+          <div class="card-footer" >
+             <button class="btn" style="background-color:    #ed6663;
+             ;">Enroll Now</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="card">
+          <div class="card-header " >
+             <h4>Mastering In C/C++ (Basic+Advance)</h4>
+          </div>
+          <div class="card-body">
+             <img src="source/c-lan.png" alt="" width="100%" height="200px">
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+               Veniam obcaecati nobis quam distinctio officiis ratione!</p>
+          </div>
+          <div class="card-footer" >
+             <button class="btn" style="background-color:    #ed6663;
+             ;">Enroll Now</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="card">
+          <div class="card-header " >
+             <h4>Android Development + Projects</h4>
+          </div>
+          <div class="card-body">
+             <img src="source/android.jpg" alt="" width="100%" height="200px">
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+               Veniam obcaecati nobis quam distinctio officiis ratione!</p>
+          </div>
+          <div class="card-footer" >
+             <button class="btn" style="background-color:    #ed6663;
+             ;">Enroll Now</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="card">
+          <div class="card-header " >
+             <h4>Game Development for Beginner</h4>
+          </div>
+          <div class="card-body">
+             <img src="source/unity.png" alt="" width="100%" height="200px">
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+               Veniam obcaecati nobis quam distinctio officiis ratione!</p>
+          </div>
+          <div class="card-footer" >
+             <button class="btn" style="background-color:    #ed6663;
+             ;">Enroll Now</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="card">
+          <div class="card-header " >
+             <h4>IOS Development from scratch</h4>
+          </div>
+          <div class="card-body">
+             <img src="source/ios.jpg" alt="" width="100%" height="200px">
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+               Veniam obcaecati nobis quam distinctio officiis ratione!</p>
+          </div>
+          <div class="card-footer" >
+             <button class="btn" style="background-color:    #ed6663;
+             ;">Enroll Now</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="card">
+          <div class="card-header " >
+             <h4>Full stack Web Development</h4>
+          </div>
+          <div class="card-body">
+             <img src="source/web_dev.jpg" alt="" width="100%" height="200px">
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+               Veniam obcaecati nobis quam distinctio officiis ratione!</p>
+          </div>
+          <div class="card-footer" >
+             <button class="btn" style="background-color:    #ed6663;
+             ;">Enroll Now</button>
+          </div>
+        </div>
+      </div>
+     
+     </div>
+   </section>
+
+   <section id="press">
+     <div>
+       <h2 >Your some Dream company which can you place</h2>
+     </div>
+    <div class="row">
+      <div class="col-md-4">
+        <img src="source/microsof.png" class="press-logo-m" >
+      </div>
+      <div class="col-md-4">
+        <img src="source/amazon.png" class="press-logo-a" >
+      </div>
+      <div class="col-md-4">
+        <img src="source/facebook.png" class="press-logo-f" >
+      </div>
+    </div>
+   </section>
+
+   <div class="divider"></div>
+   <section id="social-media">
+     <div class="social-icon">
+      <i class="fa fa-facebook-f fa-2x" ></i>
+      <i class="fa fa-instagram fa-2x" ></i>
+      <i class="fa fa-twitter fa-2x" ></i>
+      <i class="fa fa-envelope fa-2x" ></i>
+     </div>
+     <div>
+       <a href="#">
+        <h4 class="foot text-dark">
+          © CODE.HUB 2020
+         </h4>
+       </a>
+     </div>
+   </section>
+
+  </body>
+  
+</html>

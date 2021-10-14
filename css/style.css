@@ -1,0 +1,149 @@
+ body{
+    background-color:#e5e5e5;
+    
+ }
+
+ /* navbar section */
+ .nav-item{ 
+    word-spacing: 5px;
+    margin-right: 20px;
+ }
+ .logo{
+  font-family: 'Indie Flower', cursive;
+  font-family: 'Russo One', sans-serif;
+   font-size: 30px;
+   font-weight: bold;
+   color: #e94560;
+ }
+ .logo-img{
+   position: relative;
+   top:-6px;
+ }
+
+ /* header section */
+ .header-img{
+   width: 300px;
+   height: 300px;
+   transform: rotate(15deg);
+   margin-left: 6em;
+ }
+ #header{
+   background-color: #e94560;
+   line-height: 2.5;
+   color: white;
+   font-weight: 600;
+ }
+ .header-h1{
+   text-align: left;
+   font-family: 'Russo One', sans-serif;
+ }
+ .header-btn{
+   margin-top: 2em;
+   margin-bottom: 2em;
+   margin-right: 1em;
+ }
+
+/* feature section */
+#feature{
+  padding-top: 7%;
+  padding-bottom: 7%;
+}
+ h3{
+   font-family: 'Russo One', sans-serif;
+ }
+ .fa-4x{
+    color: #ed6663;
+    margin-bottom: 0.5em;
+ }
+ .feature-box{
+   text-align: center;
+ }
+ .fa-4x:hover{
+  color: #e94560;
+ }
+
+ /* slider section */
+ #slider{
+   background-color: #ed6663;
+   text-align: center;
+ }
+ .slider-img{
+   border-radius: 100%;
+   width: 250px;
+   height: 250px;
+  
+ }
+ .slider-h3
+ {
+   padding-top: 5%;
+   color: white;
+ }
+ .slider-p{
+   color: white;
+ }
+.carousel-inner{
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 7%;
+  padding-bottom: 7%;
+}
+
+/* press section */
+#press{
+  text-align: center;
+}
+.press-logo-m{
+  width: 200px;
+  height: 120px;
+}
+.press-logo-a{
+  width: 200px;
+  height: 100px;
+  padding-top: 40px;
+}
+.press-logo-f{
+  width: 200px;
+  height: 80px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+h2{
+  text-align: center;
+  font-family: 'Russo One', sans-serif;
+  padding-top: 5%;
+  font-size: 200px;
+}
+
+.card{
+  margin:10px 0px;
+}
+.card-div{
+  padding:0% 10%;
+}
+.course-h2{
+  margin-top: 50px;
+}
+
+
+#social-media{
+  text-align: center;
+  color:#ed6663;
+  padding-top:5%;
+  
+}
+
+.fa:hover{
+  color: #e94560;
+}
+
+.social-icon{
+  word-spacing: 30px;
+}
+
+.divider{
+  border-bottom: 3px solid rgb(255, 255, 255);
+}
+.foot{
+  padding-top: 2%;
+}
